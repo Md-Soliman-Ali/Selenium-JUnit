@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GetTitle" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-29T04:29:02" hostname="DESKTOP-47D5M7J" time="9.521">
+  <properties/>
+  <testcase name="getTitle" classname="GetTitle" time="9.521"/>
+  <system-out><![CDATA[ToolsQA
+]]></system-out>
+  <system-err><![CDATA[1653798543285	geckodriver	INFO	Listening on 127.0.0.1:2634
+1653798543838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headed" "-no-remote" "-profile" "C:\\Users\\ICAB\\AppData\\Local\\Temp\\rust_mozprofilenojjti"
+1653798544244	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ICAB\\AppData\\Local\\Temp\\rust_mozprofilenojjti\\search.json.mozlz4", (void 0)))
+1653798546052	Marionette	INFO	Listening on port 1877
+1653798546515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+May 29, 2022 10:29:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/QVskxRw7CvsogGZyHRgqudPcMMWoBc1HqTdFrXgdWFU.js line 2 > eval line 1242 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1653798551398	Marionette	INFO	Stopped listening on port 1877
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
