@@ -1,5 +1,3 @@
-web-automation test project. In this project, we use the Selenium Web Driver and the JUnit test runner in Java.
-
 ## Technology:
 - Tool: Selenium
 - IDE: IntelliJ IDEA Community Edition
