@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReadExcelFile" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-31T06:26:10" hostname="DESKTOP-47D5M7J" time="4.161">
+  <properties/>
+  <testcase name="readExcelFile" classname="ReadExcelFile" time="4.161"/>
+  <system-out><![CDATA[Name|| 
+Address|| 
+
+Omar|| 
+Dhaka|| 
+
+Rana|| 
+Bogra|| 
+
+]]></system-out>
+  <system-err><![CDATA[1653978370963	geckodriver	INFO	Listening on 127.0.0.1:42534
+1653978371632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headed" "-no-remote" "-profile" "C:\\Users\\ICAB\\AppData\\Local\\Temp\\rust_mozprofileinxhCW"
+1653978371927	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ICAB\\AppData\\Local\\Temp\\rust_mozprofileinxhCW\\search.json.mozlz4", (void 0)))
+1653978373518	Marionette	INFO	Listening on port 3731
+1653978373671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+May 31, 2022 12:26:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1653978374028	Marionette	INFO	Stopped listening on port 3731
+]]></system-err>
+</testsuite>
