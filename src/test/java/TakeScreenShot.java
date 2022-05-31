@@ -16,7 +16,9 @@ public class TakeScreenShot extends DriverSetup {
 
         File screenshot_File = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String time = new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss-aa").format(new Date());
+
         String file_Path = "./src/test/resources/screenshots/" + time + ".jpg";
+
         File destination_File = new File(file_Path);
         FileUtils.copyFile(screenshot_File, destination_File);
     }
